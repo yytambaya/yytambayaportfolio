@@ -5,6 +5,7 @@
 }
 body{
   font-family:  'Poppins', sans-serif;
+  background: #f4f4f4;
 }
 button{
   font-family: 'Poppins', sans-serif;
@@ -13,9 +14,10 @@ button{
   width: 90%;
   display: flex;
   height: 10vh;
-  margin-bottom: 30px;
-  margin-top: 30px;
+  margin-bottom: 25px;
+  margin-top: 40px;
   align-items: center;
+
   /*background: yellow;*/
 }
 .header-container{
@@ -62,6 +64,9 @@ hr{
   -webkit-text-fill-color: transparent;
   transform: translate(50px, 0px);
   transition:  transform 2s;
+}
+.aboutme-body{
+    width: 85%;
 }
 .aboutme-text{
   /*margin-left: 20px;*/
