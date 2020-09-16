@@ -201,7 +201,8 @@ hr{
   display: flex;
   flex-direction: column;
   margin-top: 100px;
-  height: 50vh;
+  margin-bottom: 80px;
+  height: 40vh;
 }
 .skill-heading{
   display: flex;
