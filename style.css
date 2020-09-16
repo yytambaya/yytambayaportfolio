@@ -17,7 +17,10 @@ button{
   margin-bottom: 25px;
   margin-top: 40px;
   align-items: center;
-
+  /*background-image: url("images/bg4.png");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: left;*/
   /*background: yellow;*/
 }
 .header-container{
@@ -29,7 +32,7 @@ button{
   background: linear-gradient(to right, #494964, #6f6f89);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transform: translate(50px, 0px);
+  transform: translate(20px, 0px);
   transition: transform 1s;
 }
 hr{
@@ -43,6 +46,7 @@ hr{
   /*margin-left: 20px;*/
   min-height: 80vh;
   /*background: blue;*/
+
 }
 .aboutme-introduction{
   display: flex;
@@ -274,5 +278,8 @@ hr{
   .project-img img{
     width: 80%;
     height: 70%;
+  }
+  .aboutme-introduction{
+    flex-direction: column;
   }
 }
