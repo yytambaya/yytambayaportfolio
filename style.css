@@ -111,9 +111,7 @@ hr{
   flex: 1;
  display: flex;
  justify-content: center;
- flex-direction: row;
-
- /*margin-left: 120px;*/
+ margin-left: 120px;
 }
 .profilepic{
   width: 250px;
@@ -258,6 +256,8 @@ hr{
   }
   .profile{
     margin-top: 50px;
+    margin-left: 0px;
+
   }
 
 
@@ -283,10 +283,5 @@ hr{
   }
   .aboutme-introduction{
     flex-direction: column;
-  }
-}
-@media screen and (max-width: 450px){
-  .profile{
-
   }
 }
