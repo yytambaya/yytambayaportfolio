@@ -37,7 +37,7 @@ button:active{
   flex: 1;
 }
 .logo{
-  font-size: 25px;
+  font-size: 30px;
   background: linear-gradient(to right, #494964, #6f6f89);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
