@@ -10,6 +10,15 @@ body{
 button{
   font-family: 'Poppins', sans-serif;
 }
+button:hover{
+  border-width: 2px;
+}
+button:active{
+  border-width: 0px;
+}
+
+
+
 .header{
   width: 90%;
   display: flex;
