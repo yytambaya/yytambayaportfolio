@@ -6,6 +6,7 @@
 body{
   font-family:  'Poppins', sans-serif;
   background: #f4f4f4;
+  color: white;
 }
 button{
   font-family: 'Poppins', sans-serif;
@@ -38,7 +39,6 @@ button:active{
 }
 .logo{
   font-size: 30px;
-  color: maroon;
   background: linear-gradient(to right, #494964, #6f6f89);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
