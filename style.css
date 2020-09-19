@@ -97,7 +97,7 @@ hr{
 	/*border: 2px solid #fca311;*/
   border: 2px solid maroon;
 	background: transparent;
-	color: #585772;;
+	color: #585772;
 	width: 150px;
 	height: 50px;
   margin-right: 30px;
@@ -119,8 +119,24 @@ hr{
   margin-left: 30px;
 }
 
+.github-link{
+    padding: 1em 1.5em;
+    cursor: pointer;
+    font-size: 16px;
+    border: 1px solid maroon;
+    color: #585772;
+    margin-bottom: 200px;
+    margin-left: 30px;
+}
 .contactme-link{
-    background: blue;
+    background: maroon;
+    padding: 1em 1.5em;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    color: white;
+    margin-bottom: 200px;
+    margin-left: 30px;
 }
 .profile{
   flex: 1;
