@@ -6,7 +6,6 @@
 body{
   font-family:  'Poppins', sans-serif;
   background: #f4f4f4;
-  color: white;
 }
 button{
   font-family: 'Poppins', sans-serif;
@@ -120,6 +119,9 @@ hr{
   margin-left: 30px;
 }
 
+.contactme-link{
+    background: blue;
+}
 .profile{
   flex: 1;
  display: flex;
