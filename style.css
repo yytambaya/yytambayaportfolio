@@ -203,6 +203,7 @@ hr{
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
+  margin-left: 20px;
 }
 .skill{
   display: flex;
