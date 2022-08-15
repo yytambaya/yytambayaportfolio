@@ -268,3 +268,7 @@ hr{
     flex-direction: column;
   }
 }
+
+.space-down{
+  margin-bottom: 20px;
+}
