@@ -28,6 +28,7 @@ button:active{
 .header-container{
   display: flex;
   flex: 1;
+  margin-left: 50px;
 }
 .logo{
   font-size: 30px;
@@ -47,12 +48,17 @@ hr{
   width: 90%;
   min-height: 80vh;
 }
+.about-text{
+  width: 100%;
+  text-align: justify;
+}
 .aboutme-introduction{
   display: flex;
-  flex: 1;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin-bottom: 100px;
+}
+.aboutme-introduction-text{
+  margin-right: 100px;
 }
 .aboutme-heading{
   display: flex;
@@ -70,18 +76,19 @@ hr{
   transition:  transform 2s;
 }
 .aboutme-body{
-    width: 90%;
 }
 .aboutme-text{
+  width: 100%;
   font-size: 16px;
   color: #585772;
-  margin-left: 60px;
+  margin-left: 50px;
   transition: color 2s;
 }
 .more {
 	display: flex;
   flex-wrap: wrap;
   padding-bottom: 160px;
+  margin-left: 20px;
 }
 
 .github-link{
