@@ -1,173 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-9TM2NZV20Y"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
       gtag('config', 'G-9TM2NZV20Y');
     </script>
-    <title>yytambaya, a Nigerian web developer(Portfolio)</title>
+    <title>Y.Y. Tambaya — Software Engineer</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="yytambaya">
-    <meta name="keywords" content="yytambaya, web developer portfolio, Nigerian web developers, about yytambaya, mobile developer portfolio, PHP developer portfolio, Android developer portfolio">
-    <meta name="description" content="yytambaya is a Nigerian web/mobile developer. He is a PHP and Android developer. Here is his portfolio">
+    <meta name="author" content="Y.Y. Tambaya">
+    <meta name="keywords" content="software engineer, full-stack developer, web developer, yytambaya, React, Node.js">
+    <meta name="description" content="Portfolio of Y.Y. Tambaya — software engineer building web and mobile products with React, Node.js, and cloud infrastructure.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="icon" href="images/favicon.ico">
   </head>
   <body>
-    <header class="header">
-      <div class="header-container">
-        <a href="/"><img src="images/bg10.png" alt="yytambaya logo"/></a>
-        <h1 class="logo">I'm yytambaya</h1>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="wrap site-header__inner">
+        <a class="site-logo" href="/">Y.Y. Tambaya</a>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="#about">About</a>
+          <a href="#work">Work</a>
+          <a href="#skills">Skills</a>
+          <a class="site-nav__cta" href="mailto:yytyakubu@gmail.com">Contact</a>
+        </nav>
       </div>
     </header>
-    <hr/>
-    <main>
-      <section class="aboutme">
-        <div class="aboutme-div">
-          <div class="aboutme-introduction">
-            <div class="aboutme-introduction-text">
-              <div class="aboutme-heading"><h2>About me</h2></div>
-              <div class="aboutme-body">
-                <p class="aboutme-text">
-                  A passionate developer with a blend of full-time and freelance 
-                  experience, dedicated to building impactful projects and innovative 
-                  solutions. Coding is not just my profession but my way of life.
-                  Currently, I am focused on creating impactful products for humanity
-                </p>
-              </div>
-            </div>
-            <div class="profile">
-              <img src="./images/profilepic.jpeg" class="profilepic" alt="yytambaya photo"/>
-            </div>
-          </div>
-          <div class="more">
-            <div class="space-down"><a class="github-link" href="https://github.com/yytambaya">Github</a></div>
-            <div><a class="contactme-link" href="mailto:yytyakubu@gmail.com">Contact me</a></div>
-          </div>
+
+    <main id="main">
+      <section class="hero wrap" aria-labelledby="hero-heading">
+        <p class="hero__eyebrow">Software engineer</p>
+        <h1 id="hero-heading" class="hero__title">I build reliable web and mobile products end to end.</h1>
+        <p class="hero__lede">
+          Full-time and freelance experience shipping systems users depend on — from APIs and data layers to polished interfaces.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="https://github.com/yytambaya">GitHub</a>
+          <a class="btn btn--ghost" href="mailto:yytyakubu@gmail.com">Email</a>
         </div>
       </section>
-      <section class="projects">
-        <div class="projects-heading">
-          <h2>Projects</h2>
-        </div>
-      
-        <div class="project">
-          <h3>Healaworld</h3>
-          <div class="project-img">
-            <img src="./images/healaworld.png" alt="A charity funding that pays" />
-            <div class="project-links">
-              <a class="project-link" href="https://www.heala.world">live</a>
-            </div>
+
+      <section id="about" class="section wrap" aria-labelledby="about-heading">
+        <h2 id="about-heading" class="section__title">About</h2>
+        <div class="about">
+          <div class="about__text">
+            <p>
+              I focus on clear architecture, maintainable code, and products that solve real problems. Development is both my profession and how I like to work through hard problems.
+            </p>
+            <p>
+              Currently building impactful tools and platforms across the stack, with an emphasis on performance, accessibility, and long-term maintainability.
+            </p>
           </div>
-        </div>
-        <div class="project">
-          <h3>Buildstartup</h3>
-          <div class="project-img">
-            <img src="./images/buildstartup.png" alt="A charity funding that pays" />
-            <div class="project-links">
-              <a class="project-link" href="https://buildstartup.vercel.app/">live</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <h3>AA Delish</h3>
-          <div class="project-img">
-            <img src="./images/AADelish.png" alt="AA Delish website" onerror="this.onerror=null; this.src='./images/bg10.png'"/>
-            <div class="project-links">
-              <a class="project-link" href="https://aadelish.vercel.app">live</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <h3>Transpay</h3>
-          <div class="project-img">
-            <img src="./images/transpay.png" alt="Transpay MFB website" onerror="this.onerror=null; this.src='./images/bg10.png'"/>
-            <div class="project-links">
-              <a class="project-link" href="https://transpaymfb.com">live</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <h3>OreCooks</h3>
-          <div class="project-img">
-            <img src="./images/orecooks.png" alt="OreCooks website" onerror="this.onerror=null; this.src='./images/bg10.png'"/>
-            <div class="project-links">
-              <a class="project-link" href="https://orecooks.vercel.app">live</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <h3>DLC Chatbot</h3>
-          <div class="project-img">
-            <img src="./images/dlc.png" alt="ABU DLC Chatbot" onerror="this.onerror=null; this.src='./images/bg10.png'"/>
-            <div class="project-links">
-              <a class="project-link" href="https://apply.abudlc.edu.ng">live</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <h3>Gistoneer</h3>
-          <div class="project-img">
-            <img src="./images/Gistoneer.png" alt="Gistoneer website" onerror="this.onerror=null; this.src='./images/bg10.png'"/>
-            <div class="project-links">
-              <a class="project-link" href="https://gistoneer.com">live</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <h3>MegaFortress</h3>
-          <div class="project-img">
-            <img src="./images/megafortress.png" alt="MegaFortress website" onerror="this.onerror=null; this.src='./images/bg10.png'"/>
-            <div class="project-links">
-              <a class="project-link" href="https://megafortress.vercel.app">live</a>
-            </div>
-          </div>
-        </div>
-        <div class="project">
-          <h3>Interim Joint Matriculation Board (IJMB)</h3>
-          <div class="project-img">
-            <img src="./images/ijmb.png" alt="See if your dress is matched"/>
-            <div class="project-links">
-              <a class="project-link" href="https://ijmbdatacenter.vercel.app">live</a>
-            </div>
-          </div>
+          <figure class="about__photo">
+            <img src="./images/profilepic.jpeg" width="280" height="280" alt="Portrait of Y.Y. Tambaya">
+          </figure>
         </div>
       </section>
-      <section class="skills-section">
-        <div class="skill-heading">
-          <h2>Skills</h2>
-        </div>
-        <div class="skills">
-          <div class="skill">React/Next.js</div>
-          <div class="skill">React Native</div>
-          <div class="skill">AWS</div>
-          <div class="skill">Node.js/Express</div>
-          <div class="skill">MySQL/NoSQL</div>
-          <div class="skill">MongoDB/Redis</div>
-          <div class="skill">AI and LLMs</div>
-          <div class="skill">Java and Android</div>
-          <div class="skill">JavaScript</div>
-          <div class="skill">Python</div>
-          <div class="skill">C/C++</div>
-          <div class="skill">Data Structures</div>
-          <div class="skill">System Design</div>
-        </div>
+
+      <section id="work" class="section wrap" aria-labelledby="work-heading">
+        <h2 id="work-heading" class="section__title">Selected work</h2>
+        <p class="section__intro">Recent projects and live products.</p>
+        <ul class="project-grid">
+          <li class="project-card">
+            <a class="project-card__link" href="https://moneycreator.ashop" target="_blank" rel="noopener noreferrer">
+              <span class="project-card__media">
+                <img src="./images/moneycreator.png" alt="" loading="lazy" onerror="this.onerror=null; this.src='./images/bg10.png'">
+              </span>
+              <span class="project-card__body">
+                <span class="project-card__name">MoneyCreator</span>
+                <span class="project-card__meta">Live site</span>
+              </span>
+            </a>
+          </li>
+          <li class="project-card">
+            <a class="project-card__link" href="https://odditor.ai" target="_blank" rel="noopener noreferrer">
+              <span class="project-card__media">
+                <img src="./images/odditor.png" alt="" loading="lazy" onerror="this.onerror=null; this.src='./images/bg10.png'">
+              </span>
+              <span class="project-card__body">
+                <span class="project-card__name">Odditor</span>
+                <span class="project-card__meta">Live site</span>
+              </span>
+            </a>
+          </li>
+          <li class="project-card">
+            <a class="project-card__link" href="https://obule.ai" target="_blank" rel="noopener noreferrer">
+              <span class="project-card__media">
+                <img src="./images/obule.png" alt="" loading="lazy" onerror="this.onerror=null; this.src='./images/bg10.png'">
+              </span>
+              <span class="project-card__body">
+                <span class="project-card__name">Obule</span>
+                <span class="project-card__meta">Live site</span>
+              </span>
+            </a>
+          </li>
+          <li class="project-card">
+            <a class="project-card__link" href="https://medpool.ai" target="_blank" rel="noopener noreferrer">
+              <span class="project-card__media">
+                <img src="./images/medpool.png" alt="" loading="lazy" onerror="this.onerror=null; this.src='./images/bg10.png'">
+              </span>
+              <span class="project-card__body">
+                <span class="project-card__name">Medpool</span>
+                <span class="project-card__meta">Live site</span>
+              </span>
+            </a>
+          </li>
+          <li class="project-card">
+            <a class="project-card__link" href="https://employmeglobal.com" target="_blank" rel="noopener noreferrer">
+              <span class="project-card__media">
+                <img src="./images/employmeglobal.png" alt="" loading="lazy" onerror="this.onerror=null; this.src='./images/bg10.png'">
+              </span>
+              <span class="project-card__body">
+                <span class="project-card__name">Employmeglobal</span>
+                <span class="project-card__meta">Live site</span>
+              </span>
+            </a>
+          </li>
+          <li class="project-card">
+            <a class="project-card__link" href="https://www.heala.world" target="_blank" rel="noopener noreferrer">
+              <span class="project-card__media">
+                <img src="./images/healaworld.png" alt="" loading="lazy">
+              </span>
+              <span class="project-card__body">
+                <span class="project-card__name">Healaworld</span>
+                <span class="project-card__meta">Live site</span>
+              </span>
+            </a>
+          </li>
+          <li class="project-card">
+            <a class="project-card__link" href="https://buildstartup.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <span class="project-card__media">
+                <img src="./images/buildstartup.png" alt="" loading="lazy">
+              </span>
+              <span class="project-card__body">
+                <span class="project-card__name">Buildstartup</span>
+                <span class="project-card__meta">Live site</span>
+              </span>
+            </a>
+          </li>
+          <li class="project-card">
+            <a class="project-card__link" href="https://aadelish.vercel.app" target="_blank" rel="noopener noreferrer">
+              <span class="project-card__media">
+                <img src="./images/AADelish.png" alt="" loading="lazy" onerror="this.onerror=null; this.src='./images/bg10.png'">
+              </span>
+              <span class="project-card__body">
+                <span class="project-card__name">AA Delish</span>
+                <span class="project-card__meta">Live site</span>
+              </span>
+            </a>
+          </li>
+          <li class="project-card">
+            <a class="project-card__link" href="https://transpaymfb.com" target="_blank" rel="noopener noreferrer">
+              <span class="project-card__media">
+                <img src="./images/transpay.png" alt="" loading="lazy" onerror="this.onerror=null; this.src='./images/bg10.png'">
+              </span>
+              <span class="project-card__body">
+                <span class="project-card__name">Transpay</span>
+                <span class="project-card__meta">Live site</span>
+              </span>
+            </a>
+          </li>
+          <li class="project-card">
+            <a class="project-card__link" href="https://orecooks.vercel.app" target="_blank" rel="noopener noreferrer">
+              <span class="project-card__media">
+                <img src="./images/orecooks.png" alt="" loading="lazy" onerror="this.onerror=null; this.src='./images/bg10.png'">
+              </span>
+              <span class="project-card__body">
+                <span class="project-card__name">OreCooks</span>
+                <span class="project-card__meta">Live site</span>
+              </span>
+            </a>
+          </li>
+          <li class="project-card">
+            <a class="project-card__link" href="https://apply.abudlc.edu.ng" target="_blank" rel="noopener noreferrer">
+              <span class="project-card__media">
+                <img src="./images/dlc.png" alt="" loading="lazy" onerror="this.onerror=null; this.src='./images/bg10.png'">
+              </span>
+              <span class="project-card__body">
+                <span class="project-card__name">DLC Chatbot</span>
+                <span class="project-card__meta">Live site</span>
+              </span>
+            </a>
+          </li>
+          <li class="project-card">
+            <a class="project-card__link" href="https://gistoneer.com" target="_blank" rel="noopener noreferrer">
+              <span class="project-card__media">
+                <img src="./images/Gistoneer.png" alt="" loading="lazy" onerror="this.onerror=null; this.src='./images/bg10.png'">
+              </span>
+              <span class="project-card__body">
+                <span class="project-card__name">Gistoneer</span>
+                <span class="project-card__meta">Live site</span>
+              </span>
+            </a>
+          </li>
+          <li class="project-card">
+            <a class="project-card__link" href="https://megafortress.vercel.app" target="_blank" rel="noopener noreferrer">
+              <span class="project-card__media">
+                <img src="./images/megafortress.png" alt="" loading="lazy" onerror="this.onerror=null; this.src='./images/bg10.png'">
+              </span>
+              <span class="project-card__body">
+                <span class="project-card__name">MegaFortress</span>
+                <span class="project-card__meta">Live site</span>
+              </span>
+            </a>
+          </li>
+          <li class="project-card">
+            <a class="project-card__link" href="https://ijmbdatacenter.vercel.app" target="_blank" rel="noopener noreferrer">
+              <span class="project-card__media">
+                <img src="./images/ijmb.png" alt="" loading="lazy">
+              </span>
+              <span class="project-card__body">
+                <span class="project-card__name">IJMB Data Center</span>
+                <span class="project-card__meta">Live site</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section id="skills" class="section wrap section--skills" aria-labelledby="skills-heading">
+        <h2 id="skills-heading" class="section__title">Skills</h2>
+        <p class="section__intro">Tools and domains I work in regularly.</p>
+        <ul class="skill-list" aria-label="Technical skills">
+          <li>React / Next.js</li>
+          <li>React Native</li>
+          <li>AWS</li>
+          <li>Node.js / Express</li>
+          <li>MySQL / NoSQL</li>
+          <li>MongoDB / Redis</li>
+          <li>AI &amp; LLMs</li>
+          <li>Java &amp; Android</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>C / C++</li>
+          <li>Data structures</li>
+          <li>System design</li>
+        </ul>
       </section>
     </main>
-    <footer class="social-links">
-      <ul>
-        <li><a href="https://github.com/yytambaya"><img src="images/github-icon.svg" alt="yytambaya Github Page" onerror="this.onerror=null; this.src='images/github-icon.png'"/></a></li>
-        <li><a href="https://twitter.com/yytambaya_"><img src="images/twitter-icon.svg" alt="yytambaya Twitter Page" onerror="this.onerror=null; this.src='images/twitter-icon.png'"/></a></li>
-        <li><a href="mailto:yytambaya@gmail.com"><img src="images/contactus-icon.png" alt="yytambaya Email" onerror="this.onerror=null; this.src='contactus-icon.png'"/></a></li>
-      </ul>
+
+    <footer class="site-footer">
+      <div class="wrap site-footer__inner">
+        <p class="site-footer__copy">&copy; <span id="year"></span> Y.Y. Tambaya</p>
+        <ul class="site-footer__links">
+          <li><a href="https://github.com/yytambaya" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://twitter.com/yytambaya_" target="_blank" rel="noopener noreferrer">Twitter</a></li>
+          <li><a href="mailto:yytyakubu@gmail.com">Email</a></li>
+        </ul>
+      </div>
     </footer>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
